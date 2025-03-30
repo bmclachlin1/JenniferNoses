@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const alertCartIsEmpty = () => alert("Cart is empty!");
+
 const Navbar: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     return (
-        <nav className="bg-[#8F7773] text-white font-ethereal p-4">
+        <nav className="bg-[#8F7773] text-white font-ethereal p-4 sticky top-0 z-50">
             <div className="flex justify-between items-center">
                 <div className="flex items-center">
                     <Link to="/">
@@ -34,14 +36,14 @@ const Navbar: React.FC = () => {
                 <div className="hidden md:flex space-x-6">
                     <Link to="/shop" className="hover:underline">Shop</Link>
                     <Link to="/contact" className="hover:underline">Contact</Link>
-                    <Link to="/shop" className="hover:underline">Cart</Link>
+                    <button onClick={alertCartIsEmpty} className="hover:underline">Cart</button>
                 </div>
             </div>
             {isMenuOpen && (
                 <div className="md:hidden mt-4 space-y-4">
                     <Link to="/shop" className="block hover:underline">Shop</Link>
                     <Link to="/contact" className="block hover:underline">Contact</Link>
-                    <Link to="/shop" className="block hover:underline border border-white px-2 py-1">Cart</Link>
+                    <button onClick={alertCartIsEmpty} className="hover:underline">Cart</button>
                 </div>
             )}
         </nav>
