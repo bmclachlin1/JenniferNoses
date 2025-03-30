@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const alertCartIsEmpty = () => alert("Cart is empty!");
+import logo1 from '../assets/logos/JennLogo-01.svg';
+
+const alertCartIsEmpty = () => {
+    alert("Your Cart is Empty!");
+}
 
 const Navbar: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -11,7 +15,7 @@ const Navbar: React.FC = () => {
             <div className="flex justify-between items-center">
                 <div className="flex items-center">
                     <Link to="/">
-                        <img src="/src/assets/logos/JennLogo-01.svg" alt="Logo" className="h-10" />
+                        <img src={logo1} alt="Logo" className="h-10" />
                     </Link>
                 </div>
                 <button
@@ -33,10 +37,15 @@ const Navbar: React.FC = () => {
                         />
                     </svg>
                 </button>
-                <div className="hidden md:flex space-x-6">
+                <div className="hidden md:flex items-center space-x-6">
                     <Link to="/shop" className="hover:underline">Shop</Link>
                     <Link to="/contact" className="hover:underline">Contact</Link>
-                    <button onClick={alertCartIsEmpty} className="hover:underline">Cart</button>
+                    <button 
+                        onClick={alertCartIsEmpty} 
+                        className="hover:underline border border-white px-2 py-1 rounded"
+                    >
+                        Cart
+                    </button>
                 </div>
             </div>
             {isMenuOpen && (
