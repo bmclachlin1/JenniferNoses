@@ -8,9 +8,7 @@ const Footer: React.FC = () => {
             <Link to="/" className="mb-4 lg:mb-0">
                 <img src={logo1} alt="Logo" className="h-7 lg:h-10" />
             </Link>
-            <div className="absolute left-1/2 transform -translate-x-1/2">
-                <img src={logo2} alt="Paw Print" className="h-10 mb-4 lg:mb-0 lg:w-[72px] lg:h-[95px]" />
-            </div>
+            <img src={logo2} alt="Paw Print" className="h-10 mb-4 lg:mb-0 lg:w-[72px] lg:h-[95px]" />
             <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6">
                 <Link to="/shop" className="hover:underline text-center">Shop</Link>
                 <Link to="/contact" className="hover:underline text-center">Contact</Link>
