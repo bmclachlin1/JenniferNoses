@@ -4,14 +4,14 @@ import logo2 from "../assets/logos/JennLogo-02.svg";
 
 const Footer: React.FC = () => {
     return (
-        <footer className="bg-[#2c2926] text-white font-ethereal px-16 h-[300px] flex flex-col justify-center items-center md:flex-row md:justify-between">
-            <Link to="/" className="mb-4 md:mb-0">
-                <img src={logo1} alt="Logo" className="h-7 md:h-10" />
+        <footer className="bg-[#2c2926] text-white font-ethereal px-16 h-[300px] flex flex-col justify-center items-center lg:flex-row lg:justify-between">
+            <Link to="/" className="mb-4 lg:mb-0">
+                <img src={logo1} alt="Logo" className="h-7 lg:w-[466px] lg:h-[69px]" />
             </Link>
             <div>
-                <img src={logo2} alt="Paw Print" className="h-10 mb-4 md:mb-0" />
+                <img src={logo2} alt="Paw Print" className="h-10 mb-4 lg:mb-0 lg:w-[72px] lg:h-[95px]" />
             </div>
-            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6">
                 <Link to="/shop" className="hover:underline text-center">Shop</Link>
                 <Link to="/contact" className="hover:underline text-center">Contact</Link>
             </div>
