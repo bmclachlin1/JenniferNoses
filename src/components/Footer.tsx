@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
     return (
         <footer className="bg-[#2c2926] text-white font-ethereal px-16 h-[300px] flex flex-col justify-center items-center lg:flex-row lg:justify-between">
             <Link to="/" className="mb-4 lg:mb-0">
-                <img src={logo1} alt="Logo" className="h-7 lg:w-[466px] lg:h-[69px]" />
+                <img src={logo1} alt="Logo" className="h-7 lg:h-10" />
             </Link>
-            <div>
+            <div className="absolute left-1/2 transform -translate-x-1/2">
                 <img src={logo2} alt="Paw Print" className="h-10 mb-4 lg:mb-0 lg:w-[72px] lg:h-[95px]" />
             </div>
             <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6">
