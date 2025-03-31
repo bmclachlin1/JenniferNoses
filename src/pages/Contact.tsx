@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { AprilFoolsPopup } from '../components/AprilFoolsPopup';
 
 const Contact: React.FC = () => {
-    const [showPopup, setShowPopup] = useState(false);
+    const [showAprilFoolsPopup, setShowAprilFoolsPopupPopup] = useState(false);
     
     const handlePopupOpen = () => {
-        setShowPopup(true);
+        setShowAprilFoolsPopupPopup(true);
     };
 
     const handlePopupClose = () => {
-        setShowPopup(false);
+        setShowAprilFoolsPopupPopup(false);
     };
     
     const handleSubmit = (e: React.FormEvent) => {
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
 
     return (
         <main className="p-16 md:p-32">
-            {showPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
+            {showAprilFoolsPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
             <div className="max-w-4xl mx-auto md:grid md:grid-cols-2 md:gap-32 md:justify-around">
                 <div className="mb-6 md:mb-0">
                     <h1 className="text-3xl md:text-5xl font-ethereal font-bold md:text-left">

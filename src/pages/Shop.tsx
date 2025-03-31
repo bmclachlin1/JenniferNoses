@@ -5,19 +5,19 @@ import React, { useState } from 'react';
 import { AprilFoolsPopup } from '../components/AprilFoolsPopup';
 
 const Shop: React.FC = () => {
-    const [showPopup, setShowPopup] = useState(false);
+    const [showAprilFoolsPopup, setShowAprilFoolsPopup] = useState(false);
 
     const handlePopupOpen = () => {
-        setShowPopup(true);
+        setShowAprilFoolsPopup(true);
     };
 
     const handlePopupClose = () => {
-        setShowPopup(false);
+        setShowAprilFoolsPopup(false);
     };
 
     return (
         <main className="flex flex-col gap-4">
-            {showPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
+            {showAprilFoolsPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-6">
                 <article className="flex flex-col justify-between items-center gap-6">
                     <img 

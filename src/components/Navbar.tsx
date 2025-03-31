@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logo1 from '../assets/logos/JennLogo-01.svg';
 
 const alertCartIsEmpty = () => {
-    alert("Your Cart is Empty!");
+    alert("Your cart is empty. Please add items to your cart before proceeding to checkout.");
 }
 
 const Navbar: React.FC = () => {

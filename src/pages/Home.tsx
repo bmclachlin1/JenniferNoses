@@ -10,8 +10,8 @@ const Home: React.FC = () => {
   return (
     <main className="flex flex-col">
 
-      <section className="grid grid-cols-1 sm:grid-cols-2 bg-[#bdaba9] py-10">
-        <div className="flex items-center text-white font-bold text-3xl sm:text-5xl px-30">
+      <section className="grid grid-cols-1 lg:grid-cols-2 bg-[#bdaba9] py-10">
+        <div className="flex items-center text-white font-bold text-3xl sm:text-5xl px-8 md:px-30">
           Organic scents for humans inspired by the unconditional love of our cherished canine companions.
         </div>
         <img src={hero} alt="Hero" className="w-full h-[600px] object-cover" />
