@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo1 from '../assets/logos/JennLogo-01.svg';
@@ -8,7 +8,7 @@ const alertCartIsEmpty = () => {
 }
 
 const Navbar: React.FC = () => {
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <nav className="bg-[#8F7773] text-white font-ethereal p-4 sticky top-0 z-50">
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
                     <Link to="/contact" className="hover:underline">Contact</Link>
                     <button 
                         onClick={alertCartIsEmpty} 
-                        className="hover:underline border border-white px-2 py-1 rounded"
+                        className="border border-white px-2 py-1 rounded hover:bg-white hover:text-[#8F7773]"
                     >
                         Cart
                     </button>

@@ -3,35 +3,21 @@ import React from 'react';
 export const AprilFoolsPopup: React.FC<{ onClose: () => void; }> = ({ onClose }) => {
     return (
         <div
-            style={{
-                position: 'fixed',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
-                backgroundColor: 'white',
-                padding: '120px 60px',
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                zIndex: 1000,
-                width: '400px',
-                textAlign: 'center',
-            }}
+            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-100 text-center bg-white shadow-lg rounded-lg px-8 py-16"
+            style={{ width: 'calc(100vw - 12.5rem)' }}
         >
             <button
-                onClick={onClose}
-                style={{
-                    position: 'absolute',
-                    top: '10px',
-                    right: '10px',
-                    border: 'none',
-                    backgroundColor: 'transparent',
-                    color: 'black',
-                    fontSize: '20px',
-                    cursor: 'pointer',
-                }}
+            onClick={onClose}
+            className="absolute top-2.5 right-2.5 border-none bg-transparent text-black text-xl cursor-pointer"
             >
-                ×
+            ×
             </button>
-            <div className="text-5xl font-ethereal font-bold">April Fools ;)</div>
+            <div className="text-5xl font-ethereal font-bold mb-12">April Fools ;)</div>
+            <footer className="mt-4 text-md poppins-regular text-center">
+            <p className="mb-2">Website Creator: Jennifer Hamilton</p>
+            <p className="mb-2">Frontend Developer: Blake McLachlin</p>
+            <p className="mb-2">Graphic Designer: Courtney McLachlin</p>
+            </footer>
         </div>
     );
 };
