@@ -15,7 +15,7 @@ export const AprilFoolsPopup: React.FC<{ onClose: () => void; }> = ({ onClose })
             <div className="text-5xl font-ethereal font-bold mb-12">April Fools ;)</div>
             <footer className="mt-4 text-md poppins-regular text-center">
                 <p className="mb-2">Website Creator: Jennifer Hamilton</p>
-                <p className="mb-2">Frontend Developer: Blake McLachlin</p>
+                <p className="mb-2">Web Developer: Blake McLachlin</p>
                 <p className="mb-2">Graphic Designer: Courtney McLachlin</p>
             </footer>
         </div>
