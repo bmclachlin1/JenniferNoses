@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         <img src={box} alt="Product Packaging" className="w-full h-[600px] object-cover" />
       </section>
 
-      <section className="py-32 px-16 md:px-32 md:px-68">
+      <section className="bg-[#FFF4E8] py-32 px-16 md:px-32 md:px-68">
         <div className="text-4xl sm:text-5xl text-[#383129] text-center font-bold">Whoever said diamonds are a girl's best friend never owned a dog.</div>
       </section>
 
