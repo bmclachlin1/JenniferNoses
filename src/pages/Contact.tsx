@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
             {showAprilFoolsPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
             <div className="lg:grid lg:grid-cols-3 lg:gap-32 lg:justify-around">
                 <div className="mb-6 lg:mb-0">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-ethereal font-bold lg:text-left">
+                    <h1 className="text-[#383129] text-3xl md:text-4xl lg:text-5xl font-ethereal font-bold lg:text-left">
                         Get in Touch -<br />
                         Let's Talk Scents!
                     </h1>
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
                             name="firstName"
                             required
                             placeholder="First Name *"
-                            className="border-b border-[#13322B] p-2 focus:outline-none poppins-regular"
+                            className="border-b placeholder-[#13322B] text-[#13322B] border-[#13322B] p-2 focus:outline-none poppins-regular"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
                             name="lastName"
                             required
                             placeholder="Last Name *"
-                            className="border-b border-[#13322B] p-2 focus:outline-none poppins-regular"
+                            className="border-b placeholder-[#13322B] text-[#13322B] border-[#13322B] p-2 focus:outline-none poppins-regular"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                             name="email"
                             required
                             placeholder="Email *"
-                            className="border-b border-[#13322B] p-2 focus:outline-none poppins-regular"
+                            className="border-b placeholder-[#13322B] text-[#13322B] border-[#13322B] p-2 focus:outline-none poppins-regular"
                         />
                     </div>
                     <div className="flex flex-col">
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                             id="phone"
                             name="phone"
                             placeholder="Phone"
-                            className="border-b border-[#13322B] p-2 focus:outline-none poppins-regular"
+                            className="border-b placeholder-[#13322B] text-[#13322B] border-[#13322B] p-2 focus:outline-none poppins-regular"
                         />
                     </div>
                     <div className="flex flex-col lg:col-span-2">
@@ -76,14 +76,14 @@ const Contact: React.FC = () => {
                             name="help"
                             required
                             placeholder="What can we help you with?"
-                            className="border-b border-[#13322B] p-2 focus:outline-none poppins-regular"
+                            className="border-b placeholder-[#13322B] text-[#13322B] border-[#13322B] p-2 focus:outline-none poppins-regular"
                             rows={4}
                         ></textarea>
                     </div>
                     <div className="lg:col-span-2">
                         <button
                             type="submit"
-                            className="border border-black text-black bg-white py-2 px-4 rounded hover:bg-black hover:text-white poppins-regular"
+                            className="border border-[#383129] text-[#383129] bg-white py-2 px-4 rounded hover:bg-[#383129] hover:text-white poppins-regular"
                         >
                             Submit
                         </button>

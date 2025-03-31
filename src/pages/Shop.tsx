@@ -25,11 +25,11 @@ const Shop: React.FC = () => {
                         alt="Warm & Cuddly" 
                         className="w-[515px] h-[423px] object-cover" 
                     />
-                    <div className="font-bold text-black text-2xl">Warm & Cuddly</div>  
-                    <div className="text-black font-light">3.4 oz</div>
+                    <div className="font-bold text-[#383129] text-2xl">Warm & Cuddly</div>  
+                    <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
                     >
                         Add to Cart
                     </button>
@@ -40,11 +40,11 @@ const Shop: React.FC = () => {
                         alt="Puppy Breath" 
                         className="w-[515px] h-[423px] object-cover" 
                     />
-                    <div className="font-bold text-black text-2xl">Puppy Breath</div>  
-                    <div className="text-black font-light">3.4 oz</div>
+                    <div className="font-bold text-[#383129] text-2xl">Puppy Breath</div>  
+                    <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
                     >
                         Add to Cart
                     </button>
@@ -55,11 +55,11 @@ const Shop: React.FC = () => {
                         alt="Freshly Bathed" 
                         className="w-[515px] h-[423px] object-cover" 
                     />
-                    <div className="font-bold text-black text-2xl">Freshly Bathed</div>  
-                    <div className="text-black font-light">3.4 oz</div>
+                    <div className="font-bold text-[#383129] text-2xl">Freshly Bathed</div>  
+                    <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
                     >
                         Add to Cart
                     </button>
