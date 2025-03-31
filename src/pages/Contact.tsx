@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
     };
 
     return (
-        <main className="p-16 lg:p-32">
+        <main className="bg-[#E5E5E5] p-16 lg:p-32">
             {showAprilFoolsPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
             <div className="lg:grid lg:grid-cols-3 lg:gap-32 lg:justify-around">
                 <div className="mb-6 lg:mb-0">
@@ -83,7 +83,7 @@ const Contact: React.FC = () => {
                     <div className="lg:col-span-2">
                         <button
                             type="submit"
-                            className="border border-[#383129] text-[#383129] bg-white py-2 px-4 rounded hover:bg-[#383129] hover:text-white poppins-regular"
+                            className="border border-[#383129] text-[#383129] bg-[#E5E5E5] py-2 px-4 rounded hover:bg-[#383129] hover:text-[#E5E5E5] poppins-regular"
                         >
                             Submit
                         </button>

@@ -16,7 +16,7 @@ const Shop: React.FC = () => {
     };
 
     return (
-        <main className="flex flex-col gap-4">
+        <main className="bg-[#E5E5E5] flex flex-col gap-4">
             {showAprilFoolsPopup && <AprilFoolsPopup onClose={handlePopupClose} />}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-6">
                 <article className="flex flex-col justify-between items-center gap-6">
@@ -29,7 +29,7 @@ const Shop: React.FC = () => {
                     <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-[#E5E5E5] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#E5E5E5]"
                     >
                         Add to Cart
                     </button>
@@ -44,7 +44,7 @@ const Shop: React.FC = () => {
                     <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-[#E5E5E5] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#E5E5E5]"
                     >
                         Add to Cart
                     </button>
@@ -59,7 +59,7 @@ const Shop: React.FC = () => {
                     <div className="text-[#383129] font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-[#383129] text-[#383129] bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-white"
+                        className="border border-[#383129] text-[#383129] bg-[#E5E5E5] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#E5E5E5]"
                     >
                         Add to Cart
                     </button>
