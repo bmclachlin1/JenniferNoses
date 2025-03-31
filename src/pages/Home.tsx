@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           Our Perfumes
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 items-center justify-around px-10">
-          <div className="flex flex-col justify-between items-center gap-6">
+          <div className="flex flex-col justify-between items-center gap-12">
             <img 
               src={warmandcuddly} 
               alt="Warm & Cuddly" 
@@ -41,7 +41,7 @@ const Home: React.FC = () => {
         </div>
         <Link 
           to="/shop" 
-          className="text-white font-bold text-[16px] border-2 border-white bg-[#2c2926] py-2 px-4 my-4 rounded hover:bg-white hover:text-black"
+          className="text-white font-bold text-[16px] border-2 border-white bg-[#2c2926] py-2 px-4 mt-6 mb-12 rounded hover:bg-white hover:text-black"
         >
           View Our Products
         </Link>
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
         <img src={box} alt="Product Packaging" className="w-full h-[600px] object-cover" />
       </section>
 
-      <section className="py-16 px-16">
+      <section className="py-32 px-16">
         <div className="text-4xl sm:text-5xl text-[#383129] text-center font-bold">Whoever said diamonds are a girl's best friend never owned a dog.</div>
       </section>
 

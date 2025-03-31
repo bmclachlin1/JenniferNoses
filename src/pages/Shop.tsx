@@ -29,7 +29,7 @@ const Shop: React.FC = () => {
                     <div className="text-black font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 rounded hover:bg-black hover:text-white"
+                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
                     >
                         Add to Cart
                     </button>
@@ -44,7 +44,7 @@ const Shop: React.FC = () => {
                     <div className="text-black font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 rounded hover:bg-black hover:text-white"
+                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
                     >
                         Add to Cart
                     </button>
@@ -59,7 +59,7 @@ const Shop: React.FC = () => {
                     <div className="text-black font-light">3.4 oz</div>
                     <button 
                         onClick={handlePopupOpen}
-                        className="border border-black text-black bg-white px-4 py-2 rounded hover:bg-black hover:text-white"
+                        className="border border-black text-black bg-white px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-black hover:text-white"
                     >
                         Add to Cart
                     </button>
