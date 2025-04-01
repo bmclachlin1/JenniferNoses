@@ -31,7 +31,7 @@ const Shop: React.FC = () => {
                         onClick={handlePopupOpen}
                         className="border border-[#383129] text-[#383129] bg-[#FFF4E8] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#FFF4E8]"
                     >
-                        Add to Cart
+                        Learn More
                     </button>
                 </article>
                 <article className="flex flex-col justify-between items-center gap-6">
@@ -46,7 +46,7 @@ const Shop: React.FC = () => {
                         onClick={handlePopupOpen}
                         className="border border-[#383129] text-[#383129] bg-[#FFF4E8] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#FFF4E8]"
                     >
-                        Add to Cart
+                        Learn More
                     </button>
                 </article>
                 <article className="flex flex-col justify-between items-center gap-6">
@@ -61,7 +61,7 @@ const Shop: React.FC = () => {
                         onClick={handlePopupOpen}
                         className="border border-[#383129] text-[#383129] bg-[#FFF4E8] px-4 py-2 sm:mb-8 lg:mb-24 rounded hover:bg-[#383129] hover:text-[#FFF4E8]"
                     >
-                        Add to Cart
+                        Learn More
                     </button>
                 </article>
             </div>
